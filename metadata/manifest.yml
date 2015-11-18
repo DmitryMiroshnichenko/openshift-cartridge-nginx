@@ -3,7 +3,7 @@ Cartridge-Short-Name: NGINX
 Display-Name: Nginx
 Version: "1.6.2"
 Versions: ["1.6.2", "1.7.10"]
-Website: https://github.com/boekkooi/openshift-cartridge-nginx
+Website: https://github.com/DmitryMiroshnichenko/openshift-cartridge-nginx
 Cartridge-Version: 0.0.1
 Cartridge-Vendor: boekkooi
 Categories:
@@ -44,7 +44,7 @@ Group-Overrides:
 Endpoints:
   - Private-IP-Name:   IP
     Private-Port-Name: PORT
-    Private-Port:      8080
+    Private-Port:      80
     Public-Port-Name:  PROXY_PORT
     Mappings:
       - Frontend:      ""
